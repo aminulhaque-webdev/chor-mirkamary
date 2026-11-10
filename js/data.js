@@ -12,7 +12,7 @@ const FAMILY = {
     { order: "৩য়", name: "মোঃ রবিউল ইসলাম", gender: "m", kids: [
       { name: "মোছাঃ সুরাইয়া জাহান প্রেরণা", gender: "f" }, { name: "মোঃ কাউছার আহমেদ", photo: "images/people/kausar.jpg", gender: "m" } ] },
     { order: "৪র্থ", name: "মোঃ আব্দুর রব", photo: "images/people/abdur-rob.jpg", gender: "m", kids: [ { name: "মোঃ রাফি", gender: "m" } ] },
-    { order: "৫ম", name: "মোঃ রেজওয়ান", photo: "images/people/rezwan.jpg", gender: "m", kids: [
+    { order: "৫ম", name: "মোঃ রেজওয়ান প্রামাণিক", photo: "images/people/rezwan.jpg", gender: "m", kids: [
       { name: "মোছাঃ মরিয়ম", gender: "f" }, { name: "মোঃ সুলাইমান", gender: "m" }, { name: "মোঃ হুযাইফা", gender: "m" } ] },
     { order: "৬ষ্ঠ", name: "মোঃ আব্দুর রহমান", gender: "m", kids: [
       { name: "মোঃ সালমান রহমান বর্ণ", photo: "images/people/salman-borno.jpg", gender: "m" }, { name: "মোছা: অনন্যা", gender: "f" } ] },
