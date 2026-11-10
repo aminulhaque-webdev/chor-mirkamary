@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ফছির উদ্দিন গোষ্ঠী – আমাদের বংশ পরিচয়</title>
+<link rel="icon" href="images/icons/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#hero"><img src="images/icons/favicon.svg" alt="লোগো">ফছির উদ্দিন গোষ্ঠী</a>
+  <button class="burger" id="burger" aria-label="মেনু" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  <nav id="menu"><a href="#hero">প্রথম পাতা</a><a href="#time">আজকের তারিখ ও সময়</a><a href="#members">আমাদের বংশ</a></nav>
+</header>
+
+<section class="hero" id="hero">
+  <div class="bismillah"><h1>ফছির উদ্দিন গোষ্ঠী</h1></div>
+  <div class="viewport"><div id="slides"></div>
+  <button class="arrow" id="prev" aria-label="আগের">‹</button>
+  <button class="arrow" id="next" aria-label="পরের">›</button>
+  </div>
+  <div id="dots"></div>
+  <p class="hint">👆 পরের জনকে দেখতে ছবি বাঁ দিকে টানুন বা তীর বাটনে চাপুন</p>
+</section>
+<div id="stats"></div>
+
+<section class="s" id="time">
+  <h2>আজকের তারিখ ও সময়</h2><p class="lead" id="clock"></p>
+  <div class="dates">
+    <div class="dcard"><span>🌾</span><h3>বাংলা তারিখ</h3><b id="dBn"></b></div>
+    <div class="dcard"><span>🌙</span><h3>আরবি তারিখ</h3><b id="dAr"></b></div>
+    <div class="dcard"><span>📅</span><h3>ইংরেজি তারিখ</h3><b id="dEn"></b></div>
+  </div>
+</section>
+
+
+
+<section class="s" id="members">
+  <h2>সদস্য প্রোফাইল</h2>
+  <p class="lead">পিতা-মাতা → সন্তান → নাতি-নাতনী, সবাই এক নজরে</p>
+  <div id="pstage"></div>
+</section>
+
+<footer>© ফছির উদ্দিন গোষ্ঠী – সর্বস্বত্ব সংরক্ষিত</footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
